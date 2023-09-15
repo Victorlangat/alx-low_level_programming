@@ -10,7 +10,7 @@ int main(void)
 
 	while (a <= 122)
 	{
-		if (a == 101 && a == 113)
+		if (a == 101 || a == 113)
 		{
 			a++;
 			continue;
@@ -19,4 +19,5 @@ int main(void)
 		a++;
 	}
 	putchar('\n');
-	return (0);
+return (0);
+}
